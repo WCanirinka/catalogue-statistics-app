@@ -1,3 +1,4 @@
+/* eslint-disable arrow-parens */
 /* eslint-disable import/no-unresolved */
 /* eslint-disable import/no-unresolved */
 import React from 'react';
