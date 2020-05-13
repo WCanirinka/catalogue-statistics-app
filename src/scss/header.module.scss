@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+  
+    .icon {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 170px;
+      cursor: pointer;
+  
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+      }
+  
+      h3 {
+        font-size: 24px;
+        color: #fff;
+      }
+    }
+  
+    .search {
+      width: 25px;
+      height: 25px;
+      color: #fff;
+    }
+  
+    input {
+      background: inherit;
+      width: 40%;
+      color: #fff;
+      font-size: 22px;
+      text-align: center;
+      margin-right: 50px;
+      border: none;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .header {
+      width: 85%;
+      margin: 0 auto;
+    }
+  }

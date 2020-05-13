@@ -1,39 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router';
+import catStyles from '../scss/cat.module.scss';
 
 const Cat = (props) => {
-  const { cat, handleClick } = props;
-  const { id, name, image } = cat;
+  const { cat } = props;
 
-  const clickHandler = (value) => {
-    handleClick(value);
-  };
+  const { name, description } = cat;
+
+  // const showCatPage = (prop) => console.log(prop);
+  const showCatPage = ({ id }) => props.history.push(`/${id}`);
 
   return (
-    <div className="cat-container">
-      <h2 className="cat-name">{name}</h2>
-      <Link to={`/catfile/${id}`}>
-        <button className="cat-btn" type="button" onClick={() => clickHandler([2, id])}>
-          <img src={image} alt={name} className="cat-image" />
-        </button>
-      </Link>
+    <div
+      className={catStyles.cat}
+      onClick={() => showCatPage(cat)}
+      onKeyPress={() => showCatPage(cat)}
+      role="button"
+      tabIndex="0"
+    >
+      <div className={catStyles.catContent}>
+        <h4>{name}</h4>
+      </div>
+      <div className={catStyles.imgContainer}>
+        {description}
+      </div>
     </div>
   );
 };
 
 Cat.propTypes = {
-  handleClick: PropTypes.func.isRequired,
-  cat: PropTypes.shape({
-    id: PropTypes.string,
-    name: PropTypes.string,
-    description: PropTypes.string,
-    intelligence: PropTypes.string,
-    image: PropTypes.string,
-    temperament: PropTypes.string,
-    adaptability: PropTypes.string,
-    weight: PropTypes.string,
-  }).isRequired,
+  cat: PropTypes.instanceOf(Object).isRequired,
+  history: PropTypes.instanceOf(Object).isRequired,
 };
 
-export default Cat;
+export default withRouter(Cat);

@@ -1,35 +1,24 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router';
+import CatLogo from '../assets/cat-logo.jpg';
+import header from '../scss/header.module.scss';
+import { showCatsPage } from '../helper/index';
 
-const Header = (props) => {
-  const { title } = props;
 
-  return (
-    <header className="header">
-      <h1 className="header-title">{title}</h1>
-      <Link to="/teamsList">
-        <button
-          type="button"
-          className="header-button"
-        >
-          Click here to change the filter
-        </button>
-      </Link>
-      <Link to="/about">
-        <button
-          type="button"
-          className="header-btn"
-        >
-          About Project
-        </button>
-      </Link>
-    </header>
-  );
-};
+const Header = (props) => (
+  <header className={header.header}>
+    <div
+      className={header.icon}
+      onClick={() => showCatsPage(props)}
+      onKeyPress={() => showCatsPage(props)}
+      role="button"
+      tabIndex="0"
+    >
+      <img src={CatLogo} alt="cat-logo" />
+      <h3>Cat Haven</h3>
+    </div>
+  </header>
+);
 
-Header.propTypes = {
-  title: PropTypes.string.isRequired,
-};
-
-export default Header;
+export default withRouter(Header);

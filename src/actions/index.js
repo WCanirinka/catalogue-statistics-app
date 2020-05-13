@@ -1,23 +1,13 @@
-const addCat = (cat) => ({
-  type: 'ADD_CAT',
-  id: cat.id,
-  name: cat.name,
-  description: cat.description,
-  intelligence: cat.intelligence,
-  image: cat.cfa_url,
-  temperament: cat.temperament,
-  adaptability: cat.adaptability,
-  weight: cat.weight('metric'),
+import axios from 'axios';
+
+const { REACT_APP_CAT_URL, REACT_APP_CATEGORY_URL } = process.env;
+
+const catQuery = axios.create({
+  baseURL: REACT_APP_CAT_URL,
 });
 
-const changeFilter = (filter) => ({
-  type: 'CHANGE_FILTER',
-  filter,
+const categoryQuery = axios.create({
+  baseURL: REACT_APP_CATEGORY_URL,
 });
 
-const changeRender = (render) => ({
-  type: 'CHANGE_RENDER',
-  render,
-});
-
-export { addCat, changeFilter, changeRender };
+export default { catQuery, categoryQuery };

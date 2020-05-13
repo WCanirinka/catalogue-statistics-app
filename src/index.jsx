@@ -1,26 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
 import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+import ReactDOM from 'react-dom';
 import App from './components/App';
-import rootReducer from './reducers';
-import './style/index.css';
-
-const initialState = {
-
-};
-
-const store = createStore(
-  rootReducer,
-  initialState,
-  // eslint-disable-next-line no-underscore-dangle
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
-);
+import store from './redux/store/index';
 
 ReactDOM.render(
   <React.StrictMode>
+
     <Provider store={store}>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root'),

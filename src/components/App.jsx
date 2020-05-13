@@ -1,3 +1,4 @@
+/* eslint-disable no-shadow */
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -11,7 +12,7 @@ import About from './About';
 const App = (props) => {
   const [cats, setCats] = useState();
   const {
-    changeFilter, cat, filter, addNewCat,
+    chngFilter, cat, filter, addNewCat,
   } = props;
 
   const handleAddCat = () => {
@@ -30,7 +31,7 @@ const App = (props) => {
 
       if (mounted) {
         setCats({
-          cat: response.data.results.filter(cat === cat.life_span),
+          cat: response.data.results.filter((cat) => cat === cat.adaptability),
         });
 
         handleAddCat();
@@ -45,7 +46,7 @@ const App = (props) => {
   }, cats);
 
   const clickHandler = (value) => {
-    changeFilter(value);
+    chngFilter(value);
   };
 
   return (
@@ -63,7 +64,7 @@ const App = (props) => {
           </Route>
           <Route exact path="/catFile/:id">
             <CatFile
-              catis={cat.filter((catis) => catis.id === filter.value[1])[0]}
+              chats={cat.filter((chats) => chats.id === filter.value[1])[0]}
               filter={filter}
               handleClick={clickHandler}
             />
@@ -79,7 +80,7 @@ const App = (props) => {
 
 App.propTypes = {
   addNewCat: PropTypes.func.isRequired,
-  changeFilter: PropTypes.func.isRequired,
+  chngFilter: PropTypes.func.isRequired,
   cat: PropTypes.arrayOf(PropTypes.object).isRequired,
   filter: PropTypes.shape({
     value: PropTypes.arrayOf(PropTypes.oneOfType([
