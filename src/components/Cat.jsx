@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router';
@@ -22,8 +23,8 @@ const Cat = (props) => {
       <div className={catStyles.catContent}>
         <h4>{name}</h4>
       </div>
-      <div className={catStyles.imgContainer}>
-        {description}
+      <div className={catStyles.descrContainer}>
+        <p>{description}</p>
       </div>
     </div>
   );

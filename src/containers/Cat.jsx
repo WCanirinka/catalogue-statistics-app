@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable no-shadow */
 import React from 'react';
 import { connect } from 'react-redux';
@@ -13,8 +14,6 @@ const Cat = (props) => {
   const {
     params: { id },
   } = match;
-
-  // const catDescription = [];
 
   const sampleCat = catReducer.find((cat) => cat.id === id);
 

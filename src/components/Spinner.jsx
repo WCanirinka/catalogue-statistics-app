@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
 import spinner from '../scss/spinner.module.scss';
 

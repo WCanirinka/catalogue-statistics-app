@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import { combineReducers } from 'redux';
 import catReducer from './cat';
 import categoryReducer from './categories';

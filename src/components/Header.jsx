@@ -1,4 +1,5 @@
 /* eslint-disable import/no-unresolved */
+/* eslint-disable import/no-unresolved */
 import React from 'react';
 import { withRouter } from 'react-router';
 import CatLogo from '../assets/cat-logo.jpg';

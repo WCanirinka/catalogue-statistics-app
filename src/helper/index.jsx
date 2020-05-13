@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import axios from '../actions/index';
 
 const { catQuery, categoryQuery } = axios;

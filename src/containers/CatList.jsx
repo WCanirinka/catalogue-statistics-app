@@ -1,4 +1,5 @@
 /* eslint-disable no-shadow */
+/* eslint-disable import/no-unresolved */
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
