@@ -5,7 +5,7 @@ const actions = {
   CHANGE_FILTER: 'CHANGE_FILTER',
 };
 
-const addCats = (cats) => ({
+const addCats = cats => ({
   type: actions.ADD_CATS,
   payload: cats,
 });

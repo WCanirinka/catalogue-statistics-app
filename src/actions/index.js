@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import axios from 'axios';
 
 const { REACT_APP_CAT_URL, REACT_APP_CATEGORY_URL } = process.env;

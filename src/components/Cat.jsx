@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { withRouter } from 'react-router';
 import catStyles from '../scss/cat.module.scss';
 
-const Cat = (props) => {
+const Cat = props => {
   const { cat } = props;
 
   const { name, description } = cat;

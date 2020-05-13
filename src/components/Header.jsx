@@ -7,7 +7,7 @@ import header from '../scss/header.module.scss';
 import { showCatsPage } from '../helper/index';
 
 
-const Header = (props) => (
+const Header = props => (
   <header className={header.header}>
     <div
       className={header.icon}

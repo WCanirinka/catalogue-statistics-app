@@ -6,7 +6,7 @@ import catList from '../scss/catList.module.scss';
 
 const CategoryFilter = ({ categories, changeFilter, filter }) => {
   const history = useHistory();
-  const handleChange = (e) => {
+  const handleChange = e => {
     changeFilter(e.target.value);
     history.push('/');
   };

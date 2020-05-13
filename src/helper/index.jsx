@@ -3,7 +3,7 @@ import axios from '../actions/index';
 
 const { catQuery, categoryQuery } = axios;
 
-export const showCatsPage = (props) => props.history.push('/');
+export const showCatsPage = props => props.history.push('/');
 
 const getRandomAlphabet = () => {
   const alphabets = 'bcefghjklmnprstv'.split('');
@@ -26,7 +26,7 @@ const getCats = async () => {
   }
 };
 
-export const initialize = async (props) => {
+export const initialize = async props => {
   const {
     catReducer, addCategories, addCats, toggleSpinner, spinnerReducer,
   } = props;

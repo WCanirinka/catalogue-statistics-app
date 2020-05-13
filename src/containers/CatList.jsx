@@ -32,7 +32,7 @@ const CatList = (props) => {
 
   const catsFilter = filterReducer === 'All Categories'
     ? catReducer
-    : catReducer.filter((cat) => cat.origin === filterReducer);
+    : catReducer.filter(cat => cat.origin === filterReducer);
 
   const showCats = !spinnerReducer ? (
     <div className={catList.catListContainer}>

@@ -9,13 +9,13 @@ import RedirectButton from '../components/RedirectButton';
 import cat from '../scss/cat.module.scss';
 import { showCatsPage } from '../helper/index';
 
-const Cat = (props) => {
+const Cat = props => {
   const { catReducer, match } = props;
   const {
     params: { id },
   } = match;
 
-  const sampleCat = catReducer.find((cat) => cat.id === id);
+  const sampleCat = catReducer.find(cat => cat.id === id);
 
   const showCat = sampleCat ? (
     <div className={cat.sampleCat}>
