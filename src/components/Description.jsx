@@ -1,3 +1,4 @@
+/* eslint-disable arrow-parens */
 /* eslint-disable import/no-unresolved */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -7,7 +8,7 @@ const Description = ({ description }) => (
   <div className={cat.description}>
     <h5>CAT INFO</h5>
     <ul className={cat.circle}>
-      {description.map((descr) => <li key={`${descr}-description`}>{descr}</li>)}
+      {description.map(descr => <li key={`${descr}-description`}>{descr}</li>)}
     </ul>
   </div>
 );
