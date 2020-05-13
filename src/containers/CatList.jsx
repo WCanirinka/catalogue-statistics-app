@@ -1,3 +1,4 @@
+/* eslint-disable arrow-parens */
 /* eslint-disable no-shadow */
 /* eslint-disable import/no-unresolved */
 import React, { useEffect } from 'react';

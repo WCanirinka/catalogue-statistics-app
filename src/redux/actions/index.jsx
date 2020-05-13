@@ -1,3 +1,4 @@
+/* eslint-disable arrow-parens */
 const actions = {
   ADD_CATS: 'ADD_CATS',
   ADD_CATEGORIES: 'ADD_CATEGORIES',

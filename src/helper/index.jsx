@@ -1,3 +1,4 @@
+/* eslint-disable arrow-parens */
 /* eslint-disable import/no-unresolved */
 import axios from '../actions/index';
 
