@@ -81,7 +81,7 @@ Repository: https://github.com/phalado/React-Redux-Capstone
 
 ## Video presentation
 
-https://www.loom.com/share/77db9dabcb15415c9233990873f66165
+https://www.loom.com/share/eee5004af9364b5f846b2bb7eaf7c972
 
 
 ## Contact
