@@ -1,68 +1,121 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/592d89b7-491c-4ec4-85f1-b90f9e50f87f/deploy-status)](https://app.netlify.com/sites/sharp-poincare-f850cc/deploys)
 
-## Available Scripts
+# React and Redux Capstone Project: catalog of Statistics
 
-In the project directory, you can run:
+<h1 align="center"><img src="https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-blue-lovely-pet-cat-image_19516.jpg"></h1>
 
-### `yarn start`
+This is Microverse's final project in React/Redux's course.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In this project, I build a catalog of DC Comic's main characters using React and Redux.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Table of contents
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React and Redux Capstone Project: catalog os Statistics](#react-and-redux-capstone-project-catalog-os-statistics)
+  - [Table of contents](#table-of-contents)
+  - [About](#about)
+        *[Built With](#built-with)
+        *[Prerequisites](#prerequisites)
+  - [Credit](#credit)
+  - [Testing](#testing)
+  - [Usage](#usage)  
+  - [Video presentation](#video-presentation)
+  - [Contact](#contact)
+  - [Acknowledgments](#acknowledgments)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## About
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+This project's goal was to build a browsable list of items that you can filter and access to the details of one item. The list should be accessed from an API, so I chose the [The Cat API][theCat-API].
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project's assignment can be seen [here][assignment].
 
-### `yarn eject`
+Link to a live version [here][live-version].
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Repository: https://github.com/phalado/React-Redux-Capstone
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Built With
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Create-react-app
+* Redux
+* React-Router
+* Webpack
+* Babel
 
-## Learn More
+### Prequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ - Git
+ - Yarn
+ - Node.js
+ - NPM
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credit
 
-### Code Splitting
+- [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+- [The Cat API](https://docs.thecatapi.com/api-reference)
+- [Css Tricks](https://css-tricks.com/custom-list-number-styling/)
+- [Specky Boy](https://speckyboy.com/html-lists-style/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+## Testing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- git clone https://github.com/WCanirinka/catalogue-statistics-app.git
 
-### Making a Progressive Web App
+- cd React-Redux-Capstone
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- npm install
 
-### Advanced Configuration
+- npm run test to run the test suites
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Usage
 
-### Deployment
+- git clone https://github.com/WCanirinka/catalogue-statistics-app.git
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+- cd React-Redux-Capstone
 
-### `yarn build` fails to minify
+- npm install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- npm start
+
+
+## Video presentation
+
+https://youtu.be/mFQ1Zvdw2x0
+
+
+## Contact
+
+Author: Wilfried Canirinka
+
+Follow me on [Twitter][WCanirinka-twitter],  visit my [Github portfolio][WCanirinka-github], my [Linkedin][wilfried].
+
+
+## Acknowledgments
+
+[Microverse][mcvs]
+
+I have no business rights about the characters used in this catalog. This is only for learning purposes. All characters belong to [The Cat API][theCat-API].
+
+
+
+
+<!-- Links -->
+[assignment]: https://www.notion.so/Catalogue-of-Statistics-72446e7fa33c403a9b6a0bc1de5c6cf5
+[live-version]: https://batcomputer-copy.herokuapp.com/
+[theCat-API]: https://docs.thecatapi.com/api-reference
+[dc-comics]: https://www.dccomics.com/
+[mcvs]: https://www.microverse.org/
+[WCanirinka-github]: https://github.com/phalado
+[WCAnirinka-twitter]: https://twitter.com/Wcanirinka
+[wilfried]: https://www.linkedin.com/in/wilfried-canirinka/
+[rapha-personal]: https://phalado.github.io/
+
+<!-- Images -->
+[init-screen]: https://raw.githubusercontent.com/phalado/React-Redux-Capstone/develop/public/content/init-screen.png
+[team-screen]: https://raw.githubusercontent.com/phalado/React-Redux-Capstone/develop/public/content/team-screen.png
+[filter-screen]: https://raw.githubusercontent.com/phalado/React-Redux-Capstone/develop/public/content/filter-screen.png
+[hero-screen]: https://raw.githubusercontent.com/phalado/React-Redux-Capstone/develop/public/content/hero-screen.png
+
+<!-- Video -->
+[video]: https://youtu.be/mFQ1Zvdw2x0
