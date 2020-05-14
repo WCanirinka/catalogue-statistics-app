@@ -10,7 +10,6 @@ const Cat = props => {
 
   const { name, description } = cat;
 
-  // const showCatPage = (prop) => console.log(prop);
   const showCatPage = ({ id }) => props.history.push(`/${id}`);
 
   return (

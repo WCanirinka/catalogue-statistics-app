@@ -81,7 +81,7 @@ Repository: https://github.com/phalado/React-Redux-Capstone
 
 ## Video presentation
 
-https://youtu.be/mFQ1Zvdw2x0
+https://www.loom.com/share/77db9dabcb15415c9233990873f66165
 
 
 ## Contact
@@ -116,6 +116,3 @@ I have no business rights about the characters used in this catalog. This is onl
 [team-screen]: https://raw.githubusercontent.com/phalado/React-Redux-Capstone/develop/public/content/team-screen.png
 [filter-screen]: https://raw.githubusercontent.com/phalado/React-Redux-Capstone/develop/public/content/filter-screen.png
 [hero-screen]: https://raw.githubusercontent.com/phalado/React-Redux-Capstone/develop/public/content/hero-screen.png
-
-<!-- Video -->
-[video]: https://youtu.be/mFQ1Zvdw2x0
