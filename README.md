@@ -17,6 +17,7 @@ In this project, I build a catalog of DC Comic's main characters using React and
         *[Built With](#built-with)
         *[Prerequisites](#prerequisites)
   - [Credit](#credit)
+  - [Live Version](#live-version)
   - [Testing](#testing)
   - [Usage](#usage)  
   - [Video presentation](#video-presentation)
@@ -56,6 +57,10 @@ Repository: https://github.com/phalado/React-Redux-Capstone
 - [The Cat API](https://docs.thecatapi.com/api-reference)
 - [Css Tricks](https://css-tricks.com/custom-list-number-styling/)
 - [Specky Boy](https://speckyboy.com/html-lists-style/)
+
+## Live Version
+
+- You can view the app [Here](https://sharp-poincare-f850cc.netlify.app/)
 
 
 ## Testing
