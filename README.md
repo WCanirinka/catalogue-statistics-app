@@ -6,8 +6,6 @@
 
 This is Microverse's final project in React/Redux's course.
 
-In this project, I build a catalog of DC Comic's main characters using React and Redux.
-
 
 ## Table of contents
 
@@ -33,7 +31,7 @@ The project's assignment can be seen [here][assignment].
 
 Link to a live version [here][live-version].
 
-Repository: https://github.com/phalado/React-Redux-Capstone
+Repository: https://github.com/WCanirinka/catalogue-statistics-app
 
 
 ### Built With
@@ -58,9 +56,6 @@ Repository: https://github.com/phalado/React-Redux-Capstone
 - [Css Tricks](https://css-tricks.com/custom-list-number-styling/)
 - [Specky Boy](https://speckyboy.com/html-lists-style/)
 
-## Live Version
-
-- You can view the app [Here](https://sharp-poincare-f850cc.netlify.app/)
 
 
 ## Testing
@@ -107,14 +102,12 @@ I have no business rights about the characters used in this catalog. This is onl
 
 <!-- Links -->
 [assignment]: https://www.notion.so/Catalogue-of-Statistics-72446e7fa33c403a9b6a0bc1de5c6cf5
-[live-version]: https://batcomputer-copy.herokuapp.com/
+[live-version]: https://sharp-poincare-f850cc.netlify.app/
 [theCat-API]: https://docs.thecatapi.com/api-reference
-[dc-comics]: https://www.dccomics.com/
 [mcvs]: https://www.microverse.org/
 [WCanirinka-github]: https://github.com/phalado
 [WCAnirinka-twitter]: https://twitter.com/Wcanirinka
 [wilfried]: https://www.linkedin.com/in/wilfried-canirinka/
-[rapha-personal]: https://phalado.github.io/
 
 <!-- Images -->
 [init-screen]: https://raw.githubusercontent.com/phalado/React-Redux-Capstone/develop/public/content/init-screen.png
