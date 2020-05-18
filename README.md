@@ -81,7 +81,7 @@ Repository: https://github.com/WCanirinka/catalogue-statistics-app
 
 ## Video presentation
 
-https://www.loom.com/share/eee5004af9364b5f846b2bb7eaf7c972
+https://www.loom.com/share/0601c6a7012f42ceacd8423f20f5b42f
 
 
 ## Contact

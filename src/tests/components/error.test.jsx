@@ -16,7 +16,7 @@ describe('CategoryFilter Component', () => {
   let component;
 
   const props = {
-    showMealsPage: () => null,
+    showCatsPage: () => null,
   };
 
   beforeEach(() => {
