@@ -1,4 +1,5 @@
 /* eslint-disable no-undef */
+/* eslint-disable import/no-unresolved */
 import { shallow } from 'enzyme';
 import React from 'react';
 import CatList from '../../containers/CatList';
