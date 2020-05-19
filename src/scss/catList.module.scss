@@ -1,0 +1,24 @@
+.catListContainer {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+
+  select {
+    margin: 50px auto;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .catListContainer {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .catList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
