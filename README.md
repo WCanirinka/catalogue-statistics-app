@@ -102,7 +102,7 @@ I have no business rights about the characters used in this catalog. This is onl
 
 <!-- Links -->
 [assignment]: https://www.notion.so/Catalogue-of-Statistics-72446e7fa33c403a9b6a0bc1de5c6cf5
-[live-version]: https://sharp-poincare-f850cc.netlify.app/
+[live-version]: https://cats-breeds.netlify.app/
 [theCat-API]: https://docs.thecatapi.com/api-reference
 [mcvs]: https://www.microverse.org/
 [WCanirinka-github]: https://github.com/phalado
