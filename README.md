@@ -1,3 +1,7 @@
+
+# catalogue-statistics-app
+This a Catalogue Statistics Application built with React/Redux
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/592d89b7-491c-4ec4-85f1-b90f9e50f87f/deploy-status)](https://app.netlify.com/sites/sharp-poincare-f850cc/deploys)
 
 # React and Redux Capstone Project: catalog of Statistics
@@ -114,3 +118,4 @@ I have no business rights about the characters used in this catalog. This is onl
 [team-screen]: https://raw.githubusercontent.com/phalado/React-Redux-Capstone/develop/public/content/team-screen.png
 [filter-screen]: https://raw.githubusercontent.com/phalado/React-Redux-Capstone/develop/public/content/filter-screen.png
 [hero-screen]: https://raw.githubusercontent.com/phalado/React-Redux-Capstone/develop/public/content/hero-screen.png
+
