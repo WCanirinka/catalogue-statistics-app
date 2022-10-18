@@ -99,7 +99,7 @@ Follow me on [Twitter][WCanirinka-twitter],  visit my [Github portfolio][WCaniri
 
 [Microverse][mcvs]
 
-I have no business rights about the characters used in this catalog. This is only for learning purposes. All characters belong to [The Cat API][theCat-API].
+I have no business rights about the characters used in this catalog. This is only for testing purposes. All characters belong to [The Cat API][theCat-API].
 
 
 
