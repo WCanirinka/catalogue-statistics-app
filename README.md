@@ -100,6 +100,7 @@ Follow me on [Twitter][WCanirinka-twitter],  visit my [Github portfolio][WCaniri
 [Microverse][mcvs]
 
 I have no business rights about the characters used in this catalog. This is only for testing purposes. All characters belong to [The Cat API][theCat-API].
+This is a good project and can be used to help with catalog statistics of everyday life.
 
 
 
